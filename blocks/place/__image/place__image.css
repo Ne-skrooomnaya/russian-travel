@@ -1,8 +1,9 @@
 .place__image {
-    color: white;
-    margin-bottom: 0px;
     width: 100%;
-    object-fit: cover;
+    max-width: 460px;
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0;
 }
 
 @media screen and (max-width: 1279px) {

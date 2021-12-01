@@ -1,6 +1,8 @@
 .place__website {
-    color: white;
     align-self: end;
+    justify-self: start;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 @media screen and (max-width: 767px) {
