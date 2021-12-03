@@ -10,6 +10,6 @@
     .place__image {
         grid-column: 1;
         grid-row: 3;
-        margin: 0 ;
+        margin: 0;
     }
 }
