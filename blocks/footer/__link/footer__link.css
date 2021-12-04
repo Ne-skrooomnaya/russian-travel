@@ -8,9 +8,13 @@
     line-height: 18px;
 }
 
+.footer__link:hover {
+    opacity: .9;
+    transition: .3s;
+  }
+
 @media screen and (max-width: 767px) {
     .footer__link {
-        font-weight: normal;
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;

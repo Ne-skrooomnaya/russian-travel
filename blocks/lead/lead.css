@@ -7,15 +7,12 @@
 @media screen and (max-width: 1279px) {
     .lead {
          max-width: 928px;
-         margin: 0 auto;
-         margin-bottom: 92px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead {
          max-width: 768px;
-         margin: 0 auto;
          margin-bottom: 88px;
     }
 }
@@ -23,7 +20,6 @@
 @media screen and (max-width: 767px) {
     .lead {
          max-width: 320px;
-         margin: 0 auto;
          margin-bottom: 64px;
     }
 }
