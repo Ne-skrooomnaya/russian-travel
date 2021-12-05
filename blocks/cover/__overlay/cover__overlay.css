@@ -13,20 +13,20 @@
     color: #ffffff;
 }
 
-.cover__overlay:before {
+.cover__overlay::before {
     content: "";
-    background: #2A2C2F;
+    background-color: #2A2C2F;
     position: absolute;
     height: 100%;
     opacity: 0.3;
+    transition: .3s;
     width: 100%;
-    background-size: contain;
 }
 
-.cover__overlay:hover {
-    opacity: .9;
-    transition: .3s;
-  }
+
+.cover__overlay:hover::before {
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 1279px) {
     .cover__overlay {
